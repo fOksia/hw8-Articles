@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+a, button {
+  transition: all .3s ease-in-out;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover h2:hover,
+a:focus h2:focus,
+a:active h2:active {
+  color: #c3b791;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.articles {
+  background-color: #e2e7ec; 
+}
+
+.articles .container {
+  padding: 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  width: calc(33.3% - 10px*2);
+  background-color: #fff;
+  margin: 10px;
+}
+
+.first {
+  width: calc(66.6% - 10px*2);
+  background: url('../img/car.png') center center/cover;
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: "Hans Kendrick - Heavy";
+  font-size: 19px;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  padding: 40px;
+  color: #fff;
+}
+
+.first a {
+  color: #fff;
+}
+
+.first h2 {
+  margin: 0;
+  margin-top: 20px;
+  width: 70%;
+}
+
+time {
+color: #818181;
+font-family: "Hans Kendrick";
+font-size: 13px;
+font-weight: 500;
+line-height: 30px;
+text-transform: uppercase;
+letter-spacing: 0.33px;
+}
+
+.small {
+color: #1d1d1d;
+font-family: "Hans Kendrick - Heavy";
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+letter-spacing: 0.55px;
+font-size: 21px;
+margin-bottom: 70px;
+}
+
+.small--margin {
+  margin-top: 48px;
+}
+
+.s-block {
+  padding: 25px;
+}
+
+.load {
+  position: relative;
+  text-align: center;
+}
+
+.load__text {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.load__text::before {
+content: "";
+position: absolute;
+left: 50px;
+top: 50px;
+width: 100px;
+height: 100px;
+background-image: url(../icon/Vector_Smart_Object.png);
+}
