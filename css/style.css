@@ -101,12 +101,7 @@ margin-bottom: 70px;
 
 .load__text::before {
 content: "";
-background: url("../icon/Vector_Smart_Object.png") center center/no-repeat;
 width: 30px;
 height: 30px;
-position: absolute;
-left: 0px;
-top: 0px;
-
-
+background: white url("../icon/Vector_Smart_Object.png") 0 0 no-repeat;
 }
