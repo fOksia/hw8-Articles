@@ -8,6 +8,8 @@ a, button {
 
 body {
   margin: 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 a {
@@ -47,10 +49,8 @@ article {
   background: url('../img/car.png') center center/cover;
   display: flex;
   flex-direction: column-reverse;
-  font-family: "Hans Kendrick - Heavy";
   font-size: 19px;
   line-height: 36px;
-  text-transform: uppercase;
   letter-spacing: 0.75px;
   padding: 40px;
   color: #fff;
@@ -68,26 +68,22 @@ article {
 
 time {
 color: #818181;
-font-family: "Hans Kendrick";
 font-size: 13px;
 font-weight: 500;
 line-height: 30px;
-text-transform: uppercase;
 letter-spacing: 0.33px;
 }
 
 .small {
 color: #1d1d1d;
-font-family: "Hans Kendrick - Heavy";
 font-weight: 700;
 line-height: 30px;
-text-transform: uppercase;
 letter-spacing: 0.55px;
 font-size: 21px;
 margin-bottom: 70px;
 }
 
-.small--margin {
+.small--margin-lg {
   margin-top: 48px;
 }
 
@@ -101,17 +97,16 @@ margin-bottom: 70px;
 }
 
 .load__text {
-  position: relative;
-  width: 30px;
-  height: 30px;
 }
 
 .load__text::before {
 content: "";
+background: url("../icon/Vector_Smart_Object.png") center center/no-repeat;
+width: 30px;
+height: 30px;
 position: absolute;
-left: 50px;
-top: 50px;
-width: 100px;
-height: 100px;
-background-image: url(../icon/Vector_Smart_Object.png);
+left: 0px;
+top: 0px;
+
+
 }
